@@ -1,0 +1,3094 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FepanPanel
+</name>
+</assembly>
+<members>
+<member name="T:FepanPanel.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FepanPanel.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:FepanPanel.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:FepanPanel.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:FepanPanel.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:FepanPanel.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:FepanPanel.Login._txt_Usuario">
+<summary>
+Control txt_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.Login._txt_Password">
+<summary>
+Control txt_Password.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.Login._btn_Aceptar">
+<summary>
+Control btn_Aceptar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.Login._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="T:FepanPanel.Documentos">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FepanPanel.Documentos.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FepanPanel.Documentos.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FepanPanel.Documentos.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FepanPanel.DocumentosTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FepanPanel.DocumentosTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FepanPanel.DocumentosTableAdapters.TableAdapterManager.UpdateUpdatedRows(FepanPanel.Documentos,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FepanPanel.DocumentosTableAdapters.TableAdapterManager.UpdateInsertedRows(FepanPanel.Documentos,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FepanPanel.DocumentosTableAdapters.TableAdapterManager.UpdateDeletedRows(FepanPanel.Documentos,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FepanPanel.DocumentosTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FepanPanel.DocumentosTableAdapters.TableAdapterManager.UpdateAll(FepanPanel.Documentos)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FepanPanel.DocumentosTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FepanPanel.DocumentosTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="F:FepanPanel.sisEmpresaMod._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaMod._ASPxFormLayout2">
+<summary>
+Control ASPxFormLayout2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaMod._txt_Descripcion">
+<summary>
+Control txt_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaMod._txt_Actividad">
+<summary>
+Control txt_Actividad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaMod._txt_Codigo">
+<summary>
+Control txt_Codigo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaMod._txt_Giro">
+<summary>
+Control txt_Giro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaMod._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaMod._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaMod._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaMod._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaMod._btn_Grabar_Empresa">
+<summary>
+Control btn_Grabar_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaMod._sql_ModEmpresa">
+<summary>
+Control sql_ModEmpresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModDir._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModDir._ASPxFormLayout3">
+<summary>
+Control ASPxFormLayout3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModDir._txt_Direccion">
+<summary>
+Control txt_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModDir._txt_Comuna">
+<summary>
+Control txt_Comuna.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModDir._txt_Ciudad">
+<summary>
+Control txt_Ciudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModDir._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModDir._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModDir._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModDir._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModDir._btn_Grabar_Direccion">
+<summary>
+Control btn_Grabar_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModDir._sql_ModDireccionEmpresa">
+<summary>
+Control sql_ModDireccionEmpresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModRes._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModRes._ASPxFormLayout4">
+<summary>
+Control ASPxFormLayout4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModRes._txt_FechaResolucion">
+<summary>
+Control txt_FechaResolucion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModRes._txt_NResolucion">
+<summary>
+Control txt_NResolucion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModRes._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModRes._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModRes._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModRes._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModRes._btn_Grabar_Resolucion">
+<summary>
+Control btn_Grabar_Resolucion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaModRes._sql_ModResolucionEmpresa">
+<summary>
+Control sql_ModResolucionEmpresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._ScriptManagerContenedorPagina">
+<summary>
+Control ScriptManagerContenedorPagina.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._UpdatePanelContenedorPagina">
+<summary>
+Control UpdatePanelContenedorPagina.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._ASPxFormLayout2">
+<summary>
+Control ASPxFormLayout2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._txt_Cantidad">
+<summary>
+Control txt_Cantidad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._grd_fae_FolioEmpresas">
+<summary>
+Control grd_fae_FolioEmpresas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._sql_fae_FolioEmpresas">
+<summary>
+Control sql_fae_FolioEmpresas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.Menu._cmb_Servidores">
+<summary>
+Control cmb_Servidores.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.Principal._form1">
+<summary>
+control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.Principal._ContentPlaceHolder1">
+<summary>
+Control ContentPlaceHolder1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._datosGuia">
+<summary>
+Control datosGuia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._ASPxCallbackPanel1">
+<summary>
+Control ASPxCallbackPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._cmb_Empresa">
+<summary>
+Control cmb_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._txt_Guia">
+<summary>
+Control txt_Guia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._btn_Cancelar">
+<summary>
+Control btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._btn_Anular">
+<summary>
+Control btn_Anular.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._txt_Cliente">
+<summary>
+Control txt_Cliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._txt_Direccion">
+<summary>
+Control txt_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._txt_Fecha">
+<summary>
+Control txt_Fecha.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._txt_Total">
+<summary>
+Control txt_Total.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._txt_EstadoVenta">
+<summary>
+Control txt_EstadoVenta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._txt_EstadoFactura">
+<summary>
+Control txt_EstadoFactura.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._sql_Empresa">
+<summary>
+Control sql_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._sql_Anular">
+<summary>
+Control sql_Anular.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._sql_Transaccion">
+<summary>
+Control sql_Transaccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._sql_Documento">
+<summary>
+Control sql_Documento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._sql_audDocumento">
+<summary>
+Control sql_audDocumento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AnularGuia._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._clienteDireccion">
+<summary>
+Control clienteDireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._ASPxCallbackPanel1">
+<summary>
+Control ASPxCallbackPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._cmb_Empresa">
+<summary>
+Control cmb_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._txt_Folio">
+<summary>
+Control txt_Folio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._btn_Cancelar">
+<summary>
+Control btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._btn_CambiarDireccion">
+<summary>
+Control btn_CambiarDireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._txt_Cliente">
+<summary>
+Control txt_Cliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._txt_Direccion">
+<summary>
+Control txt_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._cmb_nuevaDireccion">
+<summary>
+Control cmb_nuevaDireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._sql_Empresa">
+<summary>
+Control sql_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._sql_DireccionTransaccion">
+<summary>
+Control sql_DireccionTransaccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisClienteDireccion._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._ASPxCallbackPanel1">
+<summary>
+Control ASPxCallbackPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._cmb_Observacion">
+<summary>
+Control cmb_Observacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._cmb_Empresa">
+<summary>
+Control cmb_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._btn_Firmar">
+<summary>
+Control btn_Firmar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._grid_Detalle">
+<summary>
+Control grid_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._sql_Detalle">
+<summary>
+Control sql_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._sql_Empresa2">
+<summary>
+Control sql_Empresa2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._sql_Observacion">
+<summary>
+Control sql_Observacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._ASPxCallbackPanel1">
+<summary>
+Control ASPxCallbackPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._cmb_Estado">
+<summary>
+Control cmb_Estado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._btn_Excel">
+<summary>
+Control btn_Excel.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._grid_Detalle">
+<summary>
+Control grid_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._sql_Detalle">
+<summary>
+Control sql_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._gridExport">
+<summary>
+Control gridExport.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._ASPxRibbon1">
+<summary>
+Control ASPxRibbon1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._ASPxCallbackPanel1">
+<summary>
+Control ASPxCallbackPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._grd_Empresa">
+<summary>
+Control grd_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._popupIngresar">
+<summary>
+Control popupIngresar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._popupEmpresa">
+<summary>
+Control popupEmpresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._popupDireccion">
+<summary>
+Control popupDireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._popupResolucion">
+<summary>
+Control popupResolucion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._sql_Empresa">
+<summary>
+Control sql_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._ASPxFormLayout5">
+<summary>
+Control ASPxFormLayout5.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._txt_DescripcionI">
+<summary>
+Control txt_DescripcionI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._txt_ActividadI">
+<summary>
+Control txt_ActividadI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._txt_CodigoI">
+<summary>
+Control txt_CodigoI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._txt_GiroI">
+<summary>
+Control txt_GiroI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._txt_DireccionI">
+<summary>
+Control txt_DireccionI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._txt_ComunaI">
+<summary>
+Control txt_ComunaI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._txtCiudadI">
+<summary>
+Control txtCiudadI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._txt_FechaResolucionI">
+<summary>
+Control txt_FechaResolucionI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._txt_ResolucionI">
+<summary>
+Control txt_ResolucionI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._btn_GrabarI">
+<summary>
+Control btn_GrabarI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresaNuevo._sql_Empresa">
+<summary>
+Control sql_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._clienteDireccion">
+<summary>
+Control clienteDireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._cmb_Empresa">
+<summary>
+Control cmb_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._cmb_tipoDte">
+<summary>
+Control cmb_tipoDte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._txt_Fecha">
+<summary>
+Control txt_Fecha.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._ASPxCallbackPanel1">
+<summary>
+Control ASPxCallbackPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._grd_FoliosLiberados">
+<summary>
+Control grd_FoliosLiberados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._sql_Empresa">
+<summary>
+Control sql_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._sql_LiberarFolios">
+<summary>
+Control sql_LiberarFolios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarFolios._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._ASPxCallbackPanel1">
+<summary>
+Control ASPxCallbackPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._cmb_Empresa">
+<summary>
+Control cmb_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._txt_Guia">
+<summary>
+Control txt_Guia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._btn_Cancelar">
+<summary>
+Control btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._btn_Liberar">
+<summary>
+Control btn_Liberar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._txt_Cliente">
+<summary>
+Control txt_Cliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._txt_Direccion">
+<summary>
+Control txt_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._txt_Fecha">
+<summary>
+Control txt_Fecha.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._txt_Total">
+<summary>
+Control txt_Total.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._txt_EstadoFactura">
+<summary>
+Control txt_EstadoFactura.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._grd_LiberarGuias">
+<summary>
+Control grd_LiberarGuias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._sql_Empresa">
+<summary>
+Control sql_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._sql_LiberarGuias">
+<summary>
+Control sql_LiberarGuias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._sql_audDocumento">
+<summary>
+Control sql_audDocumento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarGuias._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._ASPxCallbackPanel1">
+<summary>
+Control ASPxCallbackPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._cmb_Empresa">
+<summary>
+Control cmb_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._btn_Eliminar">
+<summary>
+Control btn_Eliminar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._grd_Imprimir">
+<summary>
+Control grd_Imprimir.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._sql_Empresa">
+<summary>
+Control sql_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._sql_EliminarImpresion">
+<summary>
+Control sql_EliminarImpresion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisLiberarImpresion._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._formListarUsuarios">
+<summary>
+Control formListarUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._panelUsuario">
+<summary>
+Control panelUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._grd_Detalle">
+<summary>
+Control grd_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._btn_CambioPass">
+<summary>
+Control btn_CambioPass.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._lbl_ErrorCambioContraseña">
+<summary>
+Control lbl_ErrorCambioContraseña.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._lbl_MensajeS">
+<summary>
+Control lbl_MensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._panelCambiarContraseña">
+<summary>
+Control panelCambiarContraseña.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._txt_Mail">
+<summary>
+Control txt_Mail.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._txt_Usuario">
+<summary>
+Control txt_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._txt_Password">
+<summary>
+Control txt_Password.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._btn_Guardar">
+<summary>
+Control btn_Guardar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._btn_Cancelar">
+<summary>
+Control btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._ASPxHiddenField1">
+<summary>
+Control ASPxHiddenField1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._popupfecha">
+<summary>
+Control popupfecha.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._sql_Usuario">
+<summary>
+Control sql_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._sql_Usuario_Empresa">
+<summary>
+Control sql_Usuario_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._sql_Empresa">
+<summary>
+Control sql_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._sql_Password">
+<summary>
+Control sql_Password.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisPrograma._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisPrograma._grid_Detalle">
+<summary>
+Control grid_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisPrograma._sql_Detalle">
+<summary>
+Control sql_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisPrograma._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._cmb_TipoDocumento">
+<summary>
+Control cmb_TipoDocumento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._grid_Detalle">
+<summary>
+Control grid_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._sql_Solicitar_Folios">
+<summary>
+Control sql_Solicitar_Folios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._ScriptManagerContenedorPagina">
+<summary>
+Control ScriptManagerContenedorPagina.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._UpdatePanelContenedorPagina">
+<summary>
+Control UpdatePanelContenedorPagina.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._panelUsuario">
+<summary>
+Control panelUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._grd_Detalle">
+<summary>
+Control grd_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._btn_CambioPass">
+<summary>
+Control btn_CambioPass.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._lbl_ErrorCambioContraseña">
+<summary>
+Control lbl_ErrorCambioContraseña.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._panelCambiarContraseña">
+<summary>
+Control panelCambiarContraseña.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._ASPxCallbackPanelCambioPassword">
+<summary>
+Control ASPxCallbackPanelCambioPassword.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._txt_Mail">
+<summary>
+Control txt_Mail.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._txt_Usuario">
+<summary>
+Control txt_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._txt_Password">
+<summary>
+Control txt_Password.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._btn_Guardar">
+<summary>
+Control btn_Guardar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._btn_Cancelar">
+<summary>
+Control btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._ASPxHiddenField2">
+<summary>
+Control ASPxHiddenField2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._sql_Usuario">
+<summary>
+Control sql_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._sql_Password">
+<summary>
+Control sql_Password.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._ASPxHiddenField1">
+<summary>
+Control ASPxHiddenField1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._cmb_Empresa">
+<summary>
+Control cmb_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._txt_Folio">
+<summary>
+Control txt_Folio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._cmb_tipoDte">
+<summary>
+Control cmb_tipoDte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._btn_Excel">
+<summary>
+Control btn_Excel.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._txt_Receptor">
+<summary>
+Control txt_Receptor.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._txt_Total">
+<summary>
+Control txt_Total.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._grd_AudFolios">
+<summary>
+Control grd_AudFolios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._sql_Empresa">
+<summary>
+Control sql_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._sql_AudFolios">
+<summary>
+Control sql_AudFolios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_AudFolios._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._ASPxCallbackPanel1">
+<summary>
+Control ASPxCallbackPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._cmb_Empresa">
+<summary>
+Control cmb_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._txt_Factura">
+<summary>
+Control txt_Factura.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._btn_Cancelar">
+<summary>
+Control btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._btn_Grabar">
+<summary>
+Control btn_Grabar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._txt_Cliente">
+<summary>
+Control txt_Cliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._txt_Afecto">
+<summary>
+Control txt_Afecto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._txt_Iva">
+<summary>
+Control txt_Iva.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._txt_Total">
+<summary>
+Control txt_Total.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._sql_Empresa">
+<summary>
+Control sql_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._sql_audDocumento">
+<summary>
+Control sql_audDocumento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._sql_Transaccion">
+<summary>
+Control sql_Transaccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._sql_Documento">
+<summary>
+Control sql_Documento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_CorrigeTotales._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidos._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidos._ASPxRibbon1">
+<summary>
+Control ASPxRibbon1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidos._ASPxCallbackPanel1">
+<summary>
+Control ASPxCallbackPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidos._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidos._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidos._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidos._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidos._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidos._grd_FoliosVencidos">
+<summary>
+Control grd_FoliosVencidos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidos._popupAnular">
+<summary>
+Control popupAnular.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidos._sql_FoliosVencidos">
+<summary>
+Control sql_FoliosVencidos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidos._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidosAnular._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidosAnular._ASPxCallbackPanel1">
+<summary>
+Control ASPxCallbackPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidosAnular._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidosAnular._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidosAnular._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidosAnular._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidosAnular._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidosAnular._btn_Anular">
+<summary>
+Control btn_Anular.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidosAnular._grd_FoliosVencidos">
+<summary>
+Control grd_FoliosVencidos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_FoliosVencidosAnular._sql_FoliosVencidos">
+<summary>
+Control sql_FoliosVencidos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_Morosos._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_Morosos._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_Morosos._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_Morosos._btn_Morosos">
+<summary>
+Control btn_Morosos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_Morosos._grd_Morosos">
+<summary>
+Control grd_Morosos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_Morosos._dvMensajeS">
+<summary>
+Control dvMensajeS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_Morosos._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_Morosos._dvMensajeE">
+<summary>
+Control dvMensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_Morosos._lbl_MensajeE">
+<summary>
+Control lbl_MensajeE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_Morosos._sql_Morosos">
+<summary>
+Control sql_Morosos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_Morosos._sql_ActualizaMorosos">
+<summary>
+Control sql_ActualizaMorosos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_Morosos._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisMenuPanel._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisMenuPanel._ScriptManagerContenedorPagina">
+<summary>
+Control ScriptManagerContenedorPagina.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisMenuPanel._UpdatePanelContenedorPagina">
+<summary>
+Control UpdatePanelContenedorPagina.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisMenuPanel._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._ASPxFormLayout2">
+<summary>
+Control ASPxFormLayout2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._cmb_Empresa">
+<summary>
+Control cmb_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._grd_DocumentosRechazados">
+<summary>
+Control grd_DocumentosRechazados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._sql_DocumentosRechazados">
+<summary>
+Control sql_DocumentosRechazados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._sql_Empresas">
+<summary>
+Control sql_Empresas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._Menu">
+<summary>
+Control Menu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{0E1B85AB-EECF-4DCD-A2A5-B35956E7280E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FepanPanel</RootNamespace>
+    <AssemblyName>FepanPanel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>FepanPanel.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>FepanPanel.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.Bootstrap.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.Resources.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.900.148\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.900.148\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.900.148\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.900.148\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebDesign, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.900.148\lib\net40\Microsoft.ReportViewer.WebDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.900.148\lib\net40\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.900.148\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Tema1\estilo.css" />
+    <Content Include="Bootstrap\Imagenes\Calendar_font_awesome.svg.png" />
+    <Content Include="Bootstrap\vendor\bootstrap\css\bootstrap2.min.css" />
+    <Content Include="Login.aspx" />
+    <Content Include="Sistema\Empresa\sisEmpresaMod.aspx" />
+    <Content Include="Sistema\Empresa\sisEmpresaModDir.aspx" />
+    <Content Include="Sistema\Empresa\sisEmpresaModRes.aspx" />
+    <Content Include="Sistema\fae_FolioEmpresas.aspx" />
+    <Content Include="Sistema\Menu.ascx" />
+    <Content Include="fepanPrincipal.ascx" />
+    <Content Include="Imagenes\clientes.png" />
+    <Content Include="Imagenes\cotiza.png" />
+    <Content Include="Imagenes\demo.png" />
+    <Content Include="Imagenes\fepanlogo.png" />
+    <Content Include="Imagenes\fepanlogo2.png" />
+    <Content Include="Imagenes\fepanlogo3.png" />
+    <Content Include="Imagenes\Flecha_Volver48.png" />
+    <Content Include="Imagenes\logo.png" />
+    <Content Include="Imagenes\registrate.png" />
+    <Content Include="Imagenes\softscreen.png" />
+    <Content Include="Imagenes\viñeta1.png" />
+    <Content Include="Bootstrap\css\sb-admin.css" />
+    <Content Include="Bootstrap\css\sb-admin.min.css" />
+    <Content Include="Bootstrap\js\sb-admin-charts.js" />
+    <Content Include="Bootstrap\js\sb-admin-charts.min.js" />
+    <Content Include="Bootstrap\js\sb-admin-datatables.js" />
+    <Content Include="Bootstrap\js\sb-admin-datatables.min.js" />
+    <Content Include="Bootstrap\js\sb-admin.js" />
+    <Content Include="Bootstrap\js\sb-admin.min.js" />
+    <Content Include="Bootstrap\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Bootstrap\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Bootstrap\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Bootstrap\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Bootstrap\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Bootstrap\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Bootstrap\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Bootstrap\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Bootstrap\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Bootstrap\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Bootstrap\vendor\chart.js\Chart.bundle.js" />
+    <Content Include="Bootstrap\vendor\chart.js\Chart.bundle.min.js" />
+    <Content Include="Bootstrap\vendor\chart.js\Chart.js" />
+    <Content Include="Bootstrap\vendor\chart.js\Chart.min.js" />
+    <Content Include="Bootstrap\vendor\datatables\dataTables.bootstrap4.css" />
+    <Content Include="Bootstrap\vendor\datatables\dataTables.bootstrap4.js" />
+    <Content Include="Bootstrap\vendor\datatables\jquery.dataTables.js" />
+    <Content Include="Bootstrap\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="Bootstrap\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Bootstrap\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Bootstrap\vendor\jquery-easing\jquery.easing.compatibility.js" />
+    <Content Include="Bootstrap\vendor\jquery-easing\jquery.easing.js" />
+    <Content Include="Bootstrap\vendor\jquery-easing\jquery.easing.min.js" />
+    <Content Include="Bootstrap\vendor\jquery\jquery.js" />
+    <Content Include="Bootstrap\vendor\jquery\jquery.min.js" />
+    <Content Include="Bootstrap\vendor\jquery\jquery.slim.js" />
+    <Content Include="Bootstrap\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="Sistema\sisAnularGuia.aspx" />
+    <Content Include="Sistema\sisClienteDireccion.aspx" />
+    <Content Include="Sistema\sisDocumentosRechazados.aspx" />
+    <Content Include="Sistema\sisDocumentosRevision.aspx" />
+    <Content Include="Sistema\sisEmpresa.aspx" />
+    <Content Include="Sistema\Empresa\sisEmpresaNuevo.aspx" />
+    <Content Include="Sistema\sisLiberarFolios.aspx" />
+    <Content Include="Sistema\sisLiberarGuias.aspx" />
+    <Content Include="Sistema\sisLiberarImpresion.aspx" />
+    <Content Include="Sistema\sisListarUsuarios.aspx" />
+    <Content Include="Sistema\sisPrograma.aspx" />
+    <Content Include="Sistema\sisSolicitarFolios.aspx" />
+    <Content Include="Sistema\sisUsuario.aspx" />
+    <Content Include="Sistema\sis_AudFolios.aspx" />
+    <Content Include="Sistema\sis_CorrigeTotales.aspx" />
+    <Content Include="Sistema\sis_FoliosVencidos.aspx" />
+    <Content Include="Sistema\sis_FoliosVencidosAnular.aspx" />
+    <Content Include="Sistema\sis_Morosos.aspx" />
+    <Content Include="Sistema\sisMenuPanel.aspx" />
+    <Content Include="Sistema\fae_DocumentosRechazados.aspx" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\Documentos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Documentos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Empresa\sisEmpresaMod.aspx.designer.vb">
+      <DependentUpon>sisEmpresaMod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Empresa\sisEmpresaMod.aspx.vb">
+      <DependentUpon>sisEmpresaMod.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\Empresa\sisEmpresaModDir.aspx.designer.vb">
+      <DependentUpon>sisEmpresaModDir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Empresa\sisEmpresaModDir.aspx.vb">
+      <DependentUpon>sisEmpresaModDir.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\Empresa\sisEmpresaModRes.aspx.designer.vb">
+      <DependentUpon>sisEmpresaModRes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Empresa\sisEmpresaModRes.aspx.vb">
+      <DependentUpon>sisEmpresaModRes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\fae_FolioEmpresas.aspx.designer.vb">
+      <DependentUpon>fae_FolioEmpresas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\fae_FolioEmpresas.aspx.vb">
+      <DependentUpon>fae_FolioEmpresas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\Menu.ascx.designer.vb">
+      <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Menu.ascx.vb">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fepanPrincipal.ascx.designer.vb">
+      <DependentUpon>fepanPrincipal.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Principal.Master.designer.vb">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.Master.vb">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\CorreoMasivo.vb" />
+    <Compile Include="Sistema\sisAnularGuia.aspx.designer.vb">
+      <DependentUpon>sisAnularGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisAnularGuia.aspx.vb">
+      <DependentUpon>sisAnularGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sisClienteDireccion.aspx.designer.vb">
+      <DependentUpon>sisClienteDireccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisClienteDireccion.aspx.vb">
+      <DependentUpon>sisClienteDireccion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sisDocumentosRechazados.aspx.designer.vb">
+      <DependentUpon>sisDocumentosRechazados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisDocumentosRechazados.aspx.vb">
+      <DependentUpon>sisDocumentosRechazados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sisDocumentosRevision.aspx.designer.vb">
+      <DependentUpon>sisDocumentosRevision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisDocumentosRevision.aspx.vb">
+      <DependentUpon>sisDocumentosRevision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sisEmpresa.aspx.designer.vb">
+      <DependentUpon>sisEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisEmpresa.aspx.vb">
+      <DependentUpon>sisEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\Empresa\sisEmpresaNuevo.aspx.designer.vb">
+      <DependentUpon>sisEmpresaNuevo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Empresa\sisEmpresaNuevo.aspx.vb">
+      <DependentUpon>sisEmpresaNuevo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sisLiberarFolios.aspx.designer.vb">
+      <DependentUpon>sisLiberarFolios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisLiberarFolios.aspx.vb">
+      <DependentUpon>sisLiberarFolios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sisLiberarGuias.aspx.designer.vb">
+      <DependentUpon>sisLiberarGuias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisLiberarGuias.aspx.vb">
+      <DependentUpon>sisLiberarGuias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sisLiberarImpresion.aspx.designer.vb">
+      <DependentUpon>sisLiberarImpresion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisLiberarImpresion.aspx.vb">
+      <DependentUpon>sisLiberarImpresion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sisListarUsuarios.aspx.designer.vb">
+      <DependentUpon>sisListarUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisListarUsuarios.aspx.vb">
+      <DependentUpon>sisListarUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sisPrograma.aspx.designer.vb">
+      <DependentUpon>sisPrograma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisPrograma.aspx.vb">
+      <DependentUpon>sisPrograma.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sisSolicitarFolios.aspx.designer.vb">
+      <DependentUpon>sisSolicitarFolios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisSolicitarFolios.aspx.vb">
+      <DependentUpon>sisSolicitarFolios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sisUsuario.aspx.designer.vb">
+      <DependentUpon>sisUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisUsuario.aspx.vb">
+      <DependentUpon>sisUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sis_AudFolios.aspx.designer.vb">
+      <DependentUpon>sis_AudFolios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sis_AudFolios.aspx.vb">
+      <DependentUpon>sis_AudFolios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sis_CorrigeTotales.aspx.designer.vb">
+      <DependentUpon>sis_CorrigeTotales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sis_CorrigeTotales.aspx.vb">
+      <DependentUpon>sis_CorrigeTotales.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sis_FoliosVencidos.aspx.designer.vb">
+      <DependentUpon>sis_FoliosVencidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sis_FoliosVencidos.aspx.vb">
+      <DependentUpon>sis_FoliosVencidos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sis_FoliosVencidosAnular.aspx.designer.vb">
+      <DependentUpon>sis_FoliosVencidosAnular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sis_FoliosVencidosAnular.aspx.vb">
+      <DependentUpon>sis_FoliosVencidosAnular.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sis_Morosos.aspx.designer.vb">
+      <DependentUpon>sis_Morosos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sis_Morosos.aspx.vb">
+      <DependentUpon>sis_Morosos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\sisMenuPanel.aspx.designer.vb">
+      <DependentUpon>sisMenuPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\sisMenuPanel.aspx.vb">
+      <DependentUpon>sisMenuPanel.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\fae_DocumentosRechazados.aspx.designer.vb">
+      <DependentUpon>fae_DocumentosRechazados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\fae_DocumentosRechazados.aspx.vb">
+      <DependentUpon>fae_DocumentosRechazados.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SqlConexion.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Aud_Folios.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Moderno\ASPxBinaryImage.skin" />
+    <Content Include="App_Themes\Moderno\ASPxButton.skin" />
+    <Content Include="App_Themes\Moderno\ASPxButtonEdit.skin" />
+    <Content Include="App_Themes\Moderno\ASPxCalendar.skin" />
+    <Content Include="App_Themes\Moderno\ASPxCallbackPanel.skin" />
+    <Content Include="App_Themes\Moderno\ASPxCaptcha.skin" />
+    <Content Include="App_Themes\Moderno\ASPxCardView.skin" />
+    <Content Include="App_Themes\Moderno\ASPxCheckBox.skin" />
+    <Content Include="App_Themes\Moderno\ASPxCheckBoxList.skin" />
+    <Content Include="App_Themes\Moderno\ASPxCloudControl.skin" />
+    <Content Include="App_Themes\Moderno\ASPxColorEdit.skin" />
+    <Content Include="App_Themes\Moderno\ASPxComboBox.skin" />
+    <Content Include="App_Themes\Moderno\ASPxDataView.skin" />
+    <Content Include="App_Themes\Moderno\ASPxDateEdit.skin" />
+    <Content Include="App_Themes\Moderno\ASPxDateNavigator.skin" />
+    <Content Include="App_Themes\Moderno\ASPxDockPanel.skin" />
+    <Content Include="App_Themes\Moderno\ASPxDocumentViewer.skin" />
+    <Content Include="App_Themes\Moderno\ASPxDropDownEdit.skin" />
+    <Content Include="App_Themes\Moderno\ASPxFileManager.skin" />
+    <Content Include="App_Themes\Moderno\ASPxFilterControl.skin" />
+    <Content Include="App_Themes\Moderno\ASPxFormLayout.skin" />
+    <Content Include="App_Themes\Moderno\ASPxGridLookup.skin" />
+    <Content Include="App_Themes\Moderno\ASPxGridView.skin" />
+    <Content Include="App_Themes\Moderno\ASPxHeadline.skin" />
+    <Content Include="App_Themes\Moderno\ASPxHtmlEditor.skin" />
+    <Content Include="App_Themes\Moderno\ASPxHyperLink.skin" />
+    <Content Include="App_Themes\Moderno\ASPxImage.skin" />
+    <Content Include="App_Themes\Moderno\ASPxImageGallery.skin" />
+    <Content Include="App_Themes\Moderno\ASPxImageSlider.skin" />
+    <Content Include="App_Themes\Moderno\ASPxImageZoom.skin" />
+    <Content Include="App_Themes\Moderno\ASPxImageZoomNavigator.skin" />
+    <Content Include="App_Themes\Moderno\ASPxLabel.skin" />
+    <Content Include="App_Themes\Moderno\ASPxListBox.skin" />
+    <Content Include="App_Themes\Moderno\ASPxLoadingPanel.skin" />
+    <Content Include="App_Themes\Moderno\ASPxMemo.skin" />
+    <Content Include="App_Themes\Moderno\ASPxMenu.skin" />
+    <Content Include="App_Themes\Moderno\ASPxNavBar.skin" />
+    <Content Include="App_Themes\Moderno\ASPxNewsControl.skin" />
+    <Content Include="App_Themes\Moderno\ASPxPageControl.skin" />
+    <Content Include="App_Themes\Moderno\ASPxPager.skin" />
+    <Content Include="App_Themes\Moderno\ASPxPanel.skin" />
+    <Content Include="App_Themes\Moderno\ASPxPivotGrid.skin" />
+    <Content Include="App_Themes\Moderno\ASPxPopupControl.skin" />
+    <Content Include="App_Themes\Moderno\ASPxPopupMenu.skin" />
+    <Content Include="App_Themes\Moderno\ASPxProgressBar.skin" />
+    <Content Include="App_Themes\Moderno\ASPxRadioButton.skin" />
+    <Content Include="App_Themes\Moderno\ASPxRadioButtonList.skin" />
+    <Content Include="App_Themes\Moderno\ASPxRatingControl.skin" />
+    <Content Include="App_Themes\Moderno\ASPxRibbon.skin" />
+    <Content Include="App_Themes\Moderno\ASPxRichEdit.skin" />
+    <Content Include="App_Themes\Moderno\ASPxRoundPanel.skin" />
+    <Content Include="App_Themes\Moderno\ASPxScheduler.skin" />
+    <Content Include="App_Themes\Moderno\ASPxSiteMapControl.skin" />
+    <Content Include="App_Themes\Moderno\ASPxSpellChecker.skin" />
+    <Content Include="App_Themes\Moderno\ASPxSpinEdit.skin" />
+    <Content Include="App_Themes\Moderno\ASPxSplitter.skin" />
+    <Content Include="App_Themes\Moderno\ASPxSpreadsheet.skin" />
+    <Content Include="App_Themes\Moderno\ASPxTabControl.skin" />
+    <Content Include="App_Themes\Moderno\ASPxTextBox.skin" />
+    <Content Include="App_Themes\Moderno\ASPxTimeEdit.skin" />
+    <Content Include="App_Themes\Moderno\ASPxTitleIndex.skin" />
+    <Content Include="App_Themes\Moderno\ASPxTokenBox.skin" />
+    <Content Include="App_Themes\Moderno\ASPxTrackBar.skin" />
+    <Content Include="App_Themes\Moderno\ASPxTreeList.skin" />
+    <Content Include="App_Themes\Moderno\ASPxTreeView.skin" />
+    <Content Include="App_Themes\Moderno\ASPxUploadControl.skin" />
+    <Content Include="App_Themes\Moderno\ASPxValidationSummary.skin" />
+    <Content Include="App_Themes\Moderno\ASPxVerticalGrid.skin" />
+    <Content Include="App_Themes\Moderno\MonthEdit.skin" />
+    <Content Include="App_Themes\Moderno\RecurrenceTypeEdit.skin" />
+    <Content Include="App_Themes\Moderno\ReportDocumentMap.skin" />
+    <Content Include="App_Themes\Moderno\ReportParametersPanel.skin" />
+    <Content Include="App_Themes\Moderno\ReportToolbar.skin" />
+    <Content Include="App_Themes\Moderno\ReportViewer.skin" />
+    <Content Include="App_Themes\Moderno\WebChartControl.skin" />
+    <Content Include="App_Themes\Moderno\WeekDaysEdit.skin" />
+    <Content Include="App_Themes\Moderno\WeekOfMonthEdit.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxBinaryImage.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxButton.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxButtonEdit.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxCalendar.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxCallbackPanel.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxCaptcha.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxCardView.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxCheckBox.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxCheckBoxList.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxCloudControl.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxColorEdit.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxComboBox.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxDataView.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxDateEdit.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxDateNavigator.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxDockPanel.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxDocumentViewer.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxDropDownEdit.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxFileManager.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxFilterControl.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxFormLayout.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxGridLookup.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxGridView.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxHeadline.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxHtmlEditor.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxHyperLink.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxImage.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxImageGallery.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxImageSlider.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxImageZoom.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxImageZoomNavigator.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxLabel.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxListBox.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxLoadingPanel.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxMemo.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxMenu.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxNavBar.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxNewsControl.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxPageControl.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxPager.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxPanel.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxPivotGrid.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxPopupControl.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxPopupMenu.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxProgressBar.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxRadioButton.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxRadioButtonList.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxRatingControl.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxRibbon.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxRichEdit.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxRoundPanel.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxScheduler.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxSiteMapControl.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxSpellChecker.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxSpinEdit.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxSplitter.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxSpreadsheet.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxTabControl.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxTextBox.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxTimeEdit.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxTitleIndex.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxTokenBox.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxTrackBar.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxTreeList.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxTreeView.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxUploadControl.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxValidationSummary.skin" />
+    <Content Include="App_Themes\Office2010Blue\ASPxVerticalGrid.skin" />
+    <Content Include="App_Themes\Office2010Blue\MonthEdit.skin" />
+    <Content Include="App_Themes\Office2010Blue\RecurrenceTypeEdit.skin" />
+    <Content Include="App_Themes\Office2010Blue\ReportDocumentMap.skin" />
+    <Content Include="App_Themes\Office2010Blue\ReportParametersPanel.skin" />
+    <Content Include="App_Themes\Office2010Blue\ReportToolbar.skin" />
+    <Content Include="App_Themes\Office2010Blue\ReportViewer.skin" />
+    <Content Include="App_Themes\Office2010Blue\WebChartControl.skin" />
+    <Content Include="App_Themes\Office2010Blue\WeekDaysEdit.skin" />
+    <Content Include="App_Themes\Office2010Blue\WeekOfMonthEdit.skin" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\Principal.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Bootstrap\pug\blank.pug" />
+    <Content Include="Bootstrap\pug\cards.pug" />
+    <Content Include="Bootstrap\pug\charts.pug" />
+    <Content Include="Bootstrap\pug\forgot-password.pug" />
+    <Content Include="Bootstrap\pug\includes\css\core.pug" />
+    <Content Include="Bootstrap\pug\includes\css\custom.pug" />
+    <Content Include="Bootstrap\pug\includes\footer.pug" />
+    <Content Include="Bootstrap\pug\includes\js\core.pug" />
+    <Content Include="Bootstrap\pug\includes\js\custom.pug" />
+    <Content Include="Bootstrap\pug\includes\modals\logout.pug" />
+    <Content Include="Bootstrap\pug\includes\navbar.pug" />
+    <Content Include="Bootstrap\pug\includes\scroll-to-top.pug" />
+    <Content Include="Bootstrap\pug\index.pug" />
+    <Content Include="Bootstrap\pug\login.pug" />
+    <Content Include="Bootstrap\pug\navbar.pug" />
+    <Content Include="Bootstrap\pug\register.pug" />
+    <Content Include="Bootstrap\pug\tables.pug" />
+    <Content Include="Bootstrap\scss\navbar\_navbar_colors.scss" />
+    <Content Include="Bootstrap\scss\navbar\_navbar_fixed.scss" />
+    <Content Include="Bootstrap\scss\navbar\_navbar_global.scss" />
+    <Content Include="Bootstrap\scss\navbar\_navbar_static.scss" />
+    <Content Include="Bootstrap\scss\navbar\_navbar_toggle.scss" />
+    <Content Include="Bootstrap\scss\sb-admin.scss" />
+    <Content Include="Bootstrap\scss\_cards.scss" />
+    <Content Include="Bootstrap\scss\_footer.scss" />
+    <Content Include="Bootstrap\scss\_global.scss" />
+    <Content Include="Bootstrap\scss\_login.scss" />
+    <Content Include="Bootstrap\scss\_mixins.scss" />
+    <Content Include="Bootstrap\scss\_utilities.scss" />
+    <Content Include="Bootstrap\scss\_variables.scss" />
+    <Content Include="Bootstrap\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Bootstrap\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Bootstrap\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="Bootstrap\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Bootstrap\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="Bootstrap\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="Bootstrap\vendor\font-awesome\css\font-awesome.css.map" />
+    <Content Include="Bootstrap\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Bootstrap\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Bootstrap\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Bootstrap\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Bootstrap\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\animated.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\core.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\fixed-width.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\font-awesome.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\icons.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\larger.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\list.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\mixins.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\path.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\screen-reader.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\stacked.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\less\variables.less" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_animated.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_core.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_icons.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_larger.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_list.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_mixins.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_path.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_stacked.scss" />
+    <Content Include="Bootstrap\vendor\font-awesome\scss\_variables.scss" />
+    <Content Include="Bootstrap\vendor\jquery\jquery.min.map" />
+    <Content Include="Bootstrap\vendor\jquery\jquery.slim.min.map" />
+    <Content Include="Principal.Master" />
+    <Content Include="Sistema\Documentos.xsc">
+      <DependentUpon>Documentos.xsd</DependentUpon>
+    </Content>
+    <Content Include="packages.config" />
+    <None Include="Sistema\Documentos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Documentos.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Sistema\Documentos.xss">
+      <DependentUpon>Documentos.xsd</DependentUpon>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49994</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49994/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

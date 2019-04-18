@@ -1,0 +1,86 @@
+﻿body
+{
+    margin: 0px;
+    top: 0px;
+    right: 0px;
+}
+#Cabecera
+{
+    height: 120px;
+    position:relative;
+    z-index:2;
+}
+#ContenidoCabecera 
+{
+    width:1024px;
+    margin:auto;
+}
+#Logotipo
+{
+    width:100%;
+    float:left;
+    margin-top: 10px;
+}
+#Login
+{
+    width:1024px;
+    margin:auto;    
+    overflow:auto;
+}
+#Conexion
+{
+    float: left;
+    width: 60%;
+    min-height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px #000 inset;
+    background-color: #E9E9E9;
+}
+#Presentacion
+{
+    float:left;
+    width:40%;
+    min-height:250px;
+}
+#Sitio
+{
+    width:1024px;
+    margin:auto;
+    margin-top:10px;
+    overflow:auto;
+}
+#ColumnaA, #ColumnaB, #ColumnaC, #ColumnaD
+{
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 300px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px #ccc inset;
+    color: #000080;
+}
+#ColIzquierda, #ColDerecha
+{
+    float:left;
+    width:5%;
+    min-height:150px;
+}
+#Registro
+{
+    width:1024px;
+    margin:auto;    
+    overflow:auto;
+    min-height: 500px;
+}
+#Pie
+{
+    height: 100px;
+    background-color: #CCCCCC;
+    clear:both;
+    box-shadow: 5px #000 inset;
+    color:White;
+    text-align:center;
+}

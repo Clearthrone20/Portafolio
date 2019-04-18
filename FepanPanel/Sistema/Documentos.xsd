@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Documentos" targetNamespace="http://tempuri.org/Documentos.xsd" xmlns:mstns="http://tempuri.org/Documentos.xsd" xmlns="http://tempuri.org/Documentos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="FepanConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FepanConnectionString1 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.FepanConnectionString1.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FepanConnectionString1 (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT fae_Documento.Monto_Total AS 'MontoTotalFae', fae_Documento.Razon_Social_Receptor AS 'ReceptorFae', aud_Documento.Usuario, aud_Documento.Fecha_Emision, aud_Documento.Rut_Receptor, 
+                  aud_Documento.Razon_Social_Receptor, aud_Documento.Monto_Total, aud_Documento.Fecha_Eliminacion, aud_Documento.Motivo, aud_Documento.Folio
+FROM     aud_Documento INNER JOIN
+                  fae_Documento ON aud_Documento.Id_Documento = fae_Documento.Id_Documento</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MontoTotalFae" DataSetColumn="MontoTotalFae" />
+              <Mapping SourceColumn="ReceptorFae" DataSetColumn="ReceptorFae" />
+              <Mapping SourceColumn="Usuario" DataSetColumn="Usuario" />
+              <Mapping SourceColumn="Fecha_Emision" DataSetColumn="Fecha_Emision" />
+              <Mapping SourceColumn="Rut_Receptor" DataSetColumn="Rut_Receptor" />
+              <Mapping SourceColumn="Razon_Social_Receptor" DataSetColumn="Razon_Social_Receptor" />
+              <Mapping SourceColumn="Monto_Total" DataSetColumn="Monto_Total" />
+              <Mapping SourceColumn="Fecha_Eliminacion" DataSetColumn="Fecha_Eliminacion" />
+              <Mapping SourceColumn="Motivo" DataSetColumn="Motivo" />
+              <Mapping SourceColumn="Folio" DataSetColumn="Folio" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Documentos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Documentos" msprop:Generator_UserDSName="Documentos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MontoTotalFae" msprop:Generator_ColumnVarNameInTable="columnMontoTotalFae" msprop:Generator_ColumnPropNameInRow="MontoTotalFae" msprop:Generator_ColumnPropNameInTable="MontoTotalFaeColumn" msprop:Generator_UserColumnName="MontoTotalFae" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ReceptorFae" msprop:Generator_ColumnVarNameInTable="columnReceptorFae" msprop:Generator_ColumnPropNameInRow="ReceptorFae" msprop:Generator_ColumnPropNameInTable="ReceptorFaeColumn" msprop:Generator_UserColumnName="ReceptorFae" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Usuario" msprop:Generator_ColumnVarNameInTable="columnUsuario" msprop:Generator_ColumnPropNameInRow="Usuario" msprop:Generator_ColumnPropNameInTable="UsuarioColumn" msprop:Generator_UserColumnName="Usuario">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fecha_Emision" msprop:Generator_ColumnVarNameInTable="columnFecha_Emision" msprop:Generator_ColumnPropNameInRow="Fecha_Emision" msprop:Generator_ColumnPropNameInTable="Fecha_EmisionColumn" msprop:Generator_UserColumnName="Fecha_Emision" type="xs:dateTime" />
+              <xs:element name="Rut_Receptor" msprop:Generator_ColumnVarNameInTable="columnRut_Receptor" msprop:Generator_ColumnPropNameInRow="Rut_Receptor" msprop:Generator_ColumnPropNameInTable="Rut_ReceptorColumn" msprop:Generator_UserColumnName="Rut_Receptor">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Razon_Social_Receptor" msprop:Generator_ColumnVarNameInTable="columnRazon_Social_Receptor" msprop:Generator_ColumnPropNameInRow="Razon_Social_Receptor" msprop:Generator_ColumnPropNameInTable="Razon_Social_ReceptorColumn" msprop:Generator_UserColumnName="Razon_Social_Receptor">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Monto_Total" msprop:Generator_ColumnVarNameInTable="columnMonto_Total" msprop:Generator_ColumnPropNameInRow="Monto_Total" msprop:Generator_ColumnPropNameInTable="Monto_TotalColumn" msprop:Generator_UserColumnName="Monto_Total" type="xs:decimal" />
+              <xs:element name="Fecha_Eliminacion" msprop:Generator_ColumnVarNameInTable="columnFecha_Eliminacion" msprop:Generator_ColumnPropNameInRow="Fecha_Eliminacion" msprop:Generator_ColumnPropNameInTable="Fecha_EliminacionColumn" msprop:Generator_UserColumnName="Fecha_Eliminacion" type="xs:dateTime" />
+              <xs:element name="Motivo" msprop:Generator_ColumnVarNameInTable="columnMotivo" msprop:Generator_ColumnPropNameInRow="Motivo" msprop:Generator_ColumnPropNameInTable="MotivoColumn" msprop:Generator_UserColumnName="Motivo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Folio" msprop:Generator_ColumnVarNameInTable="columnFolio" msprop:Generator_ColumnPropNameInRow="Folio" msprop:Generator_ColumnPropNameInTable="FolioColumn" msprop:Generator_UserColumnName="Folio" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

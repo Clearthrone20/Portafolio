@@ -1,0 +1,1751 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FepanPanel
+</name>
+</assembly>
+<members>
+<member name="T:FepanPanel.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FepanPanel.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:FepanPanel.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:FepanPanel.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:FepanPanel.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:FepanPanel.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:FepanPanel.LoginDte._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._ASPxFormLayout1">
+<summary>
+ASPxFormLayout1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._lbl_Usuarios">
+<summary>
+lbl_Usuarios control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._lbl_Solucion">
+<summary>
+lbl_Solucion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._ASPxFormLayout1_E3">
+<summary>
+ASPxFormLayout1_E3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._ASPxFormLayout1_E4">
+<summary>
+ASPxFormLayout1_E4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._LayoutItemNestedControlContainer1">
+<summary>
+LayoutItemNestedControlContainer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._ASPxImage1">
+<summary>
+ASPxImage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._LayoutItemNestedControlContainer2">
+<summary>
+LayoutItemNestedControlContainer2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._ASPxLabel1">
+<summary>
+ASPxLabel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._LayoutItemNestedControlContainer3">
+<summary>
+LayoutItemNestedControlContainer3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._ASPxImage2">
+<summary>
+ASPxImage2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._LayoutItemNestedControlContainer4">
+<summary>
+LayoutItemNestedControlContainer4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._ASPxLabel2">
+<summary>
+ASPxLabel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._LayoutItemNestedControlContainer5">
+<summary>
+LayoutItemNestedControlContainer5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._ASPxImage3">
+<summary>
+ASPxImage3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._LayoutItemNestedControlContainer6">
+<summary>
+LayoutItemNestedControlContainer6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._ASPxLabel3">
+<summary>
+ASPxLabel3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._LayoutItemNestedControlContainer7">
+<summary>
+LayoutItemNestedControlContainer7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._ASPxImage4">
+<summary>
+ASPxImage4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._LayoutItemNestedControlContainer8">
+<summary>
+LayoutItemNestedControlContainer8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._ASPxLabel4">
+<summary>
+ASPxLabel4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._txt_Usuario">
+<summary>
+txt_Usuario control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._txt_Password">
+<summary>
+txt_Password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._btn_Aceptar">
+<summary>
+btn_Aceptar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._ASPxFormLayout1_E2">
+<summary>
+ASPxFormLayout1_E2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._lbl_Mensaje">
+<summary>
+lbl_Mensaje control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._btn_Registro">
+<summary>
+btn_Registro control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._btn_Cotiza">
+<summary>
+btn_Cotiza control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._btn_Demo">
+<summary>
+btn_Demo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.LoginDte._btn_Clientes">
+<summary>
+btn_Clientes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._ASPxLabel1">
+<summary>
+ASPxLabel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._ASPxFormLayout2">
+<summary>
+ASPxFormLayout2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._cmb_Servidor">
+<summary>
+cmb_Servidor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._cmb_Empresa">
+<summary>
+cmb_Empresa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._btn_Consultar">
+<summary>
+btn_Consultar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._grd_DocumentosRechazados">
+<summary>
+grd_DocumentosRechazados control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._sql_DocumentosRechazados">
+<summary>
+sql_DocumentosRechazados control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_DocumentosRechazados._sql_Empresas">
+<summary>
+sql_Empresas control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._ASPxLabel1">
+<summary>
+ASPxLabel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._ASPxFormLayout2">
+<summary>
+ASPxFormLayout2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._cmb_Servidor">
+<summary>
+cmb_Servidor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._txt_Cantidad">
+<summary>
+txt_Cantidad control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._btn_Consultar">
+<summary>
+btn_Consultar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._grd_fae_FolioEmpresas">
+<summary>
+grd_fae_FolioEmpresas control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_FolioEmpresas._sql_fae_FolioEmpresas">
+<summary>
+sql_fae_FolioEmpresas control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_LibroCompraVentaRevision._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_LibroCompraVentaRevision._fepanPrincipal">
+<summary>
+fepanPrincipal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_LibroCompraVentaRevision._CallbackFiltros">
+<summary>
+CallbackFiltros control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_LibroCompraVentaRevision._cmb_Servidor">
+<summary>
+cmb_Servidor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_LibroCompraVentaRevision._cmb_Estado">
+<summary>
+cmb_Estado control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_LibroCompraVentaRevision._cmb_TipoLibro">
+<summary>
+cmb_TipoLibro control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_LibroCompraVentaRevision._cmb_Empresa">
+<summary>
+cmb_Empresa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_LibroCompraVentaRevision._btn_Consultar">
+<summary>
+btn_Consultar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_LibroCompraVentaRevision._grid_Detalle">
+<summary>
+grid_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_LibroCompraVentaRevision._sql_Empresa">
+<summary>
+sql_Empresa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.fae_LibroCompraVentaRevision._sql_Detalle">
+<summary>
+sql_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._fepanPrincipal">
+<summary>
+fepanPrincipal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._ASPxCallbackPanel1">
+<summary>
+ASPxCallbackPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._ASPxFormLayout1">
+<summary>
+ASPxFormLayout1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._cmb_Servidor">
+<summary>
+cmb_Servidor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._btn_Consultar">
+<summary>
+btn_Consultar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._cmb_Estado">
+<summary>
+cmb_Estado control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._btn_Excel">
+<summary>
+btn_Excel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._grid_Detalle">
+<summary>
+grid_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._sql_Detalle">
+<summary>
+sql_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevision._gridExport">
+<summary>
+gridExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevisionXML._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevisionXML._fepanPrincipal">
+<summary>
+fepanPrincipal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevisionXML._ASPxCallbackPanel1">
+<summary>
+ASPxCallbackPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevisionXML._ASPxFormLayout1">
+<summary>
+ASPxFormLayout1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevisionXML._cmb_Servidor">
+<summary>
+cmb_Servidor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevisionXML._cmb_Ano">
+<summary>
+cmb_Ano control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevisionXML._cmb_Mes">
+<summary>
+cmb_Mes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevisionXML._btn_Consultar">
+<summary>
+btn_Consultar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevisionXML._grid_Detalle">
+<summary>
+grid_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRevisionXML._sql_Detalle">
+<summary>
+sql_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._fepanPrincipal">
+<summary>
+fepanPrincipal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._ASPxCallbackPanel1">
+<summary>
+ASPxCallbackPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._ASPxFormLayout1">
+<summary>
+ASPxFormLayout1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._cmb_Servidor">
+<summary>
+cmb_Servidor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._btn_Consultar">
+<summary>
+btn_Consultar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._grid_Detalle">
+<summary>
+grid_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisEmpresa._sql_Detalle">
+<summary>
+sql_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._cmb_Servidor">
+<summary>
+Control cmb_Servidor.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._btn_Actualizar">
+<summary>
+Control btn_Actualizar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._btn_CambioPass">
+<summary>
+Control btn_CambioPass.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._grd_Detalle">
+<summary>
+Control grd_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._sql_Usuario">
+<summary>
+Control sql_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._sql_Usuario_Empresa">
+<summary>
+Control sql_Usuario_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._sql_Empresa">
+<summary>
+Control sql_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._sql_Password">
+<summary>
+Control sql_Password.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._ASPxPopupControl1">
+<summary>
+Control ASPxPopupControl1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._ASPxCallbackPanelCambioPassword">
+<summary>
+Control ASPxCallbackPanelCambioPassword.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._txt_Password">
+<summary>
+Control txt_Password.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._btn_Guardar">
+<summary>
+Control btn_Guardar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._lbl_Mensaje">
+<summary>
+Control lbl_Mensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisListarUsuarios._ASPxHiddenField1">
+<summary>
+Control ASPxHiddenField1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisMenuPanel._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisMenuPanel._ASPxFormLayout1">
+<summary>
+ASPxFormLayout1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisMenuPanel._ASPxNavBar1">
+<summary>
+ASPxNavBar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._fepanPrincipal">
+<summary>
+Control fepanPrincipal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._ASPxCallbackPanel1">
+<summary>
+Control ASPxCallbackPanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._cmb_Servidor">
+<summary>
+Control cmb_Servidor.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._cmb_Observacion">
+<summary>
+Control cmb_Observacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._cmb_Empresa">
+<summary>
+Control cmb_Empresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._btn_Firmar">
+<summary>
+Control btn_Firmar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._grid_Detalle">
+<summary>
+Control grid_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._sql_Detalle">
+<summary>
+Control sql_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._sql_Empresa2">
+<summary>
+Control sql_Empresa2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisDocumentosRechazados._sql_Observacion">
+<summary>
+Control sql_Observacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisPrograma._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisPrograma._fepanPrincipal">
+<summary>
+fepanPrincipal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisPrograma._grid_Detalle">
+<summary>
+grid_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisPrograma._sql_Detalle">
+<summary>
+sql_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._fepanPrincipal">
+<summary>
+Control fepanPrincipal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._ASPxFormLayout1">
+<summary>
+Control ASPxFormLayout1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._cmb_Servidor">
+<summary>
+Control cmb_Servidor.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._cmb_TipoDocumento">
+<summary>
+Control cmb_TipoDocumento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._chk_Todos">
+<summary>
+Control chk_Todos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._btn_Consultar">
+<summary>
+Control btn_Consultar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._grid_Detalle">
+<summary>
+Control grid_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisSolicitarFolios._sql_Solicitar_Folios">
+<summary>
+Control sql_Solicitar_Folios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._fepanPrincipal">
+<summary>
+fepanPrincipal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._ASPxFormLayout2">
+<summary>
+ASPxFormLayout2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._cmb_Servidor">
+<summary>
+cmb_Servidor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._btn_Consultar">
+<summary>
+btn_Consultar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._btn_CambioPass">
+<summary>
+btn_CambioPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._grid_Detalle">
+<summary>
+grid_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._sql_Usuario">
+<summary>
+sql_Usuario control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._sql_Password">
+<summary>
+sql_Password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._ASPxCallbackPanelCambioPassword">
+<summary>
+ASPxCallbackPanelCambioPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._txt_Password">
+<summary>
+txt_Password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._btn_Guardar">
+<summary>
+btn_Guardar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._lbl_Mensaje">
+<summary>
+lbl_Mensaje control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sisUsuario._ASPxHiddenField1">
+<summary>
+ASPxHiddenField1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._fepanPrincipal">
+<summary>
+fepanPrincipal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._ASPxRibbon1">
+<summary>
+ASPxRibbon1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._grid_Detalle">
+<summary>
+grid_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._ASPxPopupControl1">
+<summary>
+ASPxPopupControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._cmb_Empresa">
+<summary>
+cmb_Empresa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._cmb_FechaIni">
+<summary>
+cmb_FechaIni control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._cmb_FechaFin">
+<summary>
+cmb_FechaFin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._cmb_ResponsableFiltro">
+<summary>
+cmb_ResponsableFiltro control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._cmb_UsuarioFiltro">
+<summary>
+cmb_UsuarioFiltro control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._cmb_Estado">
+<summary>
+cmb_Estado control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._btn_Consultar">
+<summary>
+btn_Consultar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._sql_Empresa2">
+<summary>
+sql_Empresa2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._sql_Empresa">
+<summary>
+sql_Empresa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._sql_Responsable">
+<summary>
+sql_Responsable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._sql_Usuario">
+<summary>
+sql_Usuario control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._sql_Detalle">
+<summary>
+sql_Detalle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._ASPxHiddenField1">
+<summary>
+ASPxHiddenField1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._sql_Asignar">
+<summary>
+sql_Asignar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._ASPxPopupControl2">
+<summary>
+ASPxPopupControl2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._ASPxCallbackPanelNuevo">
+<summary>
+ASPxCallbackPanelNuevo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._cmb_EmpresaNuevo">
+<summary>
+cmb_EmpresaNuevo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._txt_Usuario">
+<summary>
+txt_Usuario control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._cmb_Fecha">
+<summary>
+cmb_Fecha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._cmb_TipoSoporte">
+<summary>
+cmb_TipoSoporte control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._txt_Motivo">
+<summary>
+txt_Motivo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._lbl_MensajeNuevo">
+<summary>
+lbl_MensajeNuevo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._btn_Grabar">
+<summary>
+btn_Grabar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._ASPxPopupControl3">
+<summary>
+ASPxPopupControl3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._ASPxCallbackPanelAsignar">
+<summary>
+ASPxCallbackPanelAsignar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._cmb_Responsable">
+<summary>
+cmb_Responsable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._btn_Asignar">
+<summary>
+btn_Asignar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._lbl_MensajeAsignar">
+<summary>
+lbl_MensajeAsignar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._ASPxPopupControl5">
+<summary>
+ASPxPopupControl5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._ASPxCallbackPanelCerrar">
+<summary>
+ASPxCallbackPanelCerrar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._cmb_FechaCierre">
+<summary>
+cmb_FechaCierre control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._txt_Solucion">
+<summary>
+txt_Solucion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._lbl_MensajeCerrado">
+<summary>
+lbl_MensajeCerrado control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._btn_Cerrar">
+<summary>
+btn_Cerrar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._ASPxPopupControl4">
+<summary>
+ASPxPopupControl4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._ASPxFormLayout1">
+<summary>
+ASPxFormLayout1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._txt_NombreExcel">
+<summary>
+txt_NombreExcel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._btn_ExportarExcel">
+<summary>
+btn_ExportarExcel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FepanPanel.sis_ListarSoporte._gridExport">
+<summary>
+gridExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
